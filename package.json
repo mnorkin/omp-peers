@@ -1,0 +1,22 @@
+{
+	"name": "omp-peers",
+	"version": "0.1.0",
+	"description": "Agent-to-agent messaging by name between omp sessions, across terminals and machines-local processes",
+	"license": "MIT",
+	"type": "module",
+	"keywords": ["omp", "omp-plugin", "agent", "messaging", "multi-agent"],
+	"files": ["src", "README.md"],
+	"scripts": {
+		"test": "bun run test/harness.ts"
+	},
+	"peerDependencies": {
+		"@oh-my-pi/pi-coding-agent": "*"
+	},
+	"peerDependenciesMeta": {
+		"@oh-my-pi/pi-coding-agent": { "optional": true }
+	},
+	"omp": {
+		"description": "Message another omp session by name: peer_send, peer_list, peer_wait",
+		"extensions": ["src/peers.ts"]
+	}
+}
