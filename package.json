@@ -4,6 +4,12 @@
 	"description": "Agent-to-agent messaging by name between omp sessions, across terminals and machines-local processes",
 	"license": "MIT",
 	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mnorkin/omp-peers.git"
+	},
+	"homepage": "https://github.com/mnorkin/omp-peers#readme",
+	"bugs": "https://github.com/mnorkin/omp-peers/issues",
 	"keywords": ["omp", "omp-plugin", "agent", "messaging", "multi-agent"],
 	"files": ["src", "README.md"],
 	"scripts": {

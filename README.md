@@ -23,6 +23,12 @@ you@term-2  omp  (mid-task, wakes with the question at its next step boundary)
 omp plugin install omp-peers
 ```
 
+Straight from the repository, before it is on npm:
+
+```bash
+omp plugin install https://github.com/mnorkin/omp-peers
+```
+
 Or from a checkout, which is also how you develop it:
 
 ```bash
